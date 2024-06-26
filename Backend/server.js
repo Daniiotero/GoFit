@@ -185,6 +185,6 @@ app.use((req, res) => {
 });
 
 // Ponemos el servidor a la escucha
-app.listen(go-fit-back.vercel.app, () => {
+app.listen(3306, () => {
     console.log(`Server listening at http://localhost:4000`);
 });
