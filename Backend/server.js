@@ -175,7 +175,7 @@ app.use((error, req, res, _) => {
 // Middleware de Not Found
 app.use((req, res) => {
     // Establecemos el codigo de error 404
-    res.status(404);
+    res.status(403);
 
     // Respondemos
     res.send({
