@@ -19,7 +19,8 @@ app.use(express.static('static'));
 app.use(fileUpload());
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: '*',
+    methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
 }));
 
 // app.use(cors({
